@@ -1,0 +1,50 @@
+*{
+	font-family: sans-serif;
+	list-style: none;
+	padding: 0px;
+}
+body{
+	background: lightblue;
+}
+h1{
+	font-size: 40px;
+}
+.skills{
+	width: 500px;
+	margin: 60px auto;
+	color: white;
+	font-size: 20px;
+}
+.skills li{
+	margin: 20px 0;
+	margin-top: 30px;
+}
+.bar{
+	background: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hiddden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+	height: 2px;
+	float: left;
+	background: #2187e7;
+}
+.html{
+	width: 80%;
+}
+.css{
+	width: 65%;
+}
+.c{
+	width: 40%;
+}
+.c_programming{
+	width: 60%;
+}
+.javascript{
+	width: 10%;
+}

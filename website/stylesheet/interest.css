@@ -10,7 +10,6 @@ main{
 	grid-row-gap: 20px;
 	grid-column-gap: 20px;
 	padding: 10px;
-	border-radius: 4px solid black;
 }
 .text p{
 	font-size: 50px;
@@ -31,36 +30,37 @@ main p{
 	font-size: 20px;
 	color:grey;
 }
+
 main .b{
-background: blue;
+background: lightyellow;
 border: 1px solid grey;
 
 }
 main .c{
-background: white;
+background:lightyellow;
 border: 1px solid grey;
 }
 main .d{
-background: pink;
+background: lightyellow;
 border: 1px solid grey;
 }
 main .e{
-background: lightgreen;
+background:lightyellow;
 border: 1px solid grey;
 }
 main .f{
-background: lightblue;
+background: lightyellow;
 border: 1px solid grey;
 }
 main .g{
-background: red;
+background: lightyellow;
 border: 1px solid grey;
 }
 main .h{
-background: violet;
+background: lightyellow;
 border: 1px solid grey;
 }
 main .i{
-background: purple;
+background: lightyellow;
 border: 1px solid grey;
 }
