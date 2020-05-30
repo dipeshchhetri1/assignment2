@@ -2,17 +2,41 @@
 	margin: 0px;
 	padding: 0px;
 }
+nav{
+	background-color: #18a6f2;
+	height: 80px;
+	width: 100%;
+	line-height: 80px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li:hover{
+	background: #66aced;
+}
+nav a{
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
 header{
-	margin-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;
+	background-color: #e1e1e6;
 }
 main{
-	margin-top: 10px;
 	display: grid;
 	grid-template-columns: 600px 200px 200px;
 	grid-gap: 50px;
+	background-color: #e1e1e6;
+}
+form{
+	background-color: #e1e1e6;
 }
 form input[type="text"]{
 	margin: 5px;
@@ -26,7 +50,7 @@ form input [type=""],textarea{
 	width: 400px;
 }
 form input[type="submit"]{
-	background: blue;
+	background: #25b6f5;
 	border:1px solid black;
 	border-radius: 2px;
 	color:white;
@@ -35,6 +59,10 @@ form input[type="submit"]{
 }
 .about{
 	margin-left: 50px;
+}
+.about h2{
+	margin-top: 2px;
+	color: #62a0fc;
 }
 .about h1{
 	color: blue;
@@ -46,12 +74,11 @@ form input[type="submit"]{
 }
 .info{
 	margin-left : 35%;
-	margin-top: 5px;
 }
 .follow p{
 	font-size: 20px;
 	font-weight: bold;
-	color: blue;
+	color: #62a0fc;
 }
 .follow a{
 	font-size: 26px;
@@ -61,15 +88,16 @@ form input[type="submit"]{
 .links p{
 	font-size: 20px;
 	font-weight: bold;
-	color: blue;
+	color: #62a0fc;
 }
 .links a{
 	text-decoration: none;
 	font-size: 17px;
-	color: lightblue;
+	color: #250ddb;
 }
 footer p{
 	font-size: 20px;
 	font-weight: bold;
 	text-align: center;
+	background-color: #e1e1e6;
 }
